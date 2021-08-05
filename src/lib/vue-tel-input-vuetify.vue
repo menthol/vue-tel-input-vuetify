@@ -3,14 +3,13 @@
     <div class="country-code">
       <v-select
         :label="selectLabel"
-        v-model="countryCode"
-        @change="onChangeCountryCode"
         :items="sortedCountries"
         :disabled="disabled"
         :outlined="outlined"
         :filled="filled"
         :flat="flat"
         :light="light"
+        :readonly="readonly"
         :shaped="shaped"
         :rounded="rounded"
         :background-color="backgroundColor"
